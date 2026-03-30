@@ -1,0 +1,52 @@
+html::before {
+  content: 'CodePen ♥ The Web';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  margin: auto;
+  width: fit-content;
+  height: fit-content;
+  font-family: monospace;
+  opacity: 0.6;
+  background: rebeccapurple;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.table {
+  padding: 10px;
+  height: 500px;
+  width: 500px;
+  background-color: black;
+  border-radius: 20px;
+}
+
+td {
+  color: black;
+  background-color: sky blue;
+  border: 1px solid black;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  padding: 1px;
+  position: relative;
+  border-radius: 50px
+}
+
+.simbol {
+  background-color: orange;
+}
+
+.numbers {
+  background-color: grey;
+}
+
+.sign {
+  background-color: skyblue;
+}
+
+.results-text {
+  background-color: white;
+}

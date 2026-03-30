@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pen</title>
+  </head>
+  <body>
+    <table class='table'>
+      <tr>
+        <div id='calculator'>
+          <input id='display' readonly width= 40px height= 40px>
+        </div>
+      </tr><br>
+      <tr>
+        <td class='simbol'><button onclick='+'>+</td>
+        <td class='numbers'><button onclick='9'>9</td>
+        <td class='numbers'><button onclick='8'>8</td>
+        <td class='numbers'><button onclick='7'>7</td>
+      </tr>
+      <tr>
+        <td class='simbol'><button onclick='-'>-</td>
+        <td class='numbers'><button onclick='4'>4</td>
+        <td class='numbers'><button onclick='5'>5</td>
+        <td class='numbers'><button onclick='6'>6</td>
+      </tr>
+      <tr>
+        <td id= 'three' class='simbol'><button onclick='/'>/</td>
+        <td id= 'two' class='numbers'><button onclick='3'>3</td>
+        <td id= 'one' class='numbers'><button onclick='2'>2</td>
+        <td class='numbers'><button onclick='1'>1</td>
+      </tr>
+      <tr>
+        <td class='simbol'><button onclick='*'>*</td>
+        <td class='sign'><button onclick='C'>C</td>
+        <td class='sign'><button onclick='='>=</td>
+        <td class='numbers'><button onclick='0'>0</td>
+      </tr>
+    </table>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
