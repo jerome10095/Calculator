@@ -1,4 +1,5 @@
 button {
+  font-size: 40px;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -9,6 +10,19 @@ button {
   cursor: pointer;
 }
 
+#display {
+  width: 100%;
+  height: 80px;
+  font-size: 24px;
+  text-align: right;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  background-color:hsl(0, 10%, 56%);
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+}
 #keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -16,11 +30,33 @@ button {
   padding: 25px;
 }
 
-.calculator {
-  font-family: 'Arial', sans-serif;
+#calculator {
+  font-family: Arial, sans-serif;
   background-color: black;
   border-radius: 15px;
-  max-width: 400px;
+  max-width: 1000px;
   overflow: hidden;
   margin: 50px auto;
+  width: 500px;
+  border-radius: 35px;
+}
+
+.symbol {
+  background-color: rgb(165, 127, 57);
+}
+
+button:hover{
+  background-color: hsl(0, 0%, 40%);
+}
+
+.symbol:hover {
+  background-color: rgb(35, 100, 75);
+}
+
+.symbol:active {
+  background-color: rgb(68, 62, 34);
+}
+
+.number:active {
+  background-color: hsl(40, 5%, 24%);
 }
