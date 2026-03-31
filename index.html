@@ -7,35 +7,27 @@
     <title>Pen</title>
   </head>
   <body>
-    <table class='table'>
-        <td colspan='4' class="Display">display</td>
-      </tr>
-      <tr>
-        <td class='simbol'><button onclick="appendToDisplay('+')">+</td>
-        <td class='numbers'><button onclick="appendToDisplay('9')">9</td>
-        <td class='numbers'><button onclick="appendToDisplay('8')">8</td>
-        <td class='numbers'><button onclick="appendToDisplay('7')">7</td>
-      </tr>
-      <tr>
-        <td class='simbol'><button onclick="appendToDisplay('-')">-</td>
-        <td class='numbers'><button onclick="appendToDisplay('4')">4</td>
-        <td class='numbers'><button onclick="appendToDisplay('5')">5</td>
-        <td class='numbers'><button onclick="appendToDisplay('6')">6</td>
-      </tr>
-      <tr>
-        <td id= 'three' class='simbol'><button onclick="appendToDisplay('/')">/</td>
-        <td id= 'two' class='numbers'><button onclick="appendToDisplay('3')">3</td>
-        <td id= 'one' class='numbers'><button onclick="appendToDisplay('2')">2</td>
-        <td class='numbers'><button onclick="appendToDisplay('1')">1</td>
-      </tr>
-      <tr>
-        <td class='simbol'><button onclick="appendToDisplay('*')">*</td>
-        <td class='sign'><button onclick="clearDisplay()">C</td>
-        <td class='sign'><button onclick="calculate()">=</td>
-        <td class='numbers'><button onclick="appendToDisplay('0')">0</td>
-      </tr>
-    </table>
-
+    <div id="calculator">
+        <input id="Display"  type="text" readonly>
+    <div id="keys">
+        <button onclick="appendToDisplay('+')">+</button>
+        <button onclick="appendToDisplay('9')">9</button>
+        <button onclick="appendToDisplay('8')">8</button>
+        <button onclick="appendToDisplay('7')">7</button>
+        <button onclick="appendToDisplay('-')">-</button>
+        <button onclick="appendToDisplay('4')">4</button>
+        <button onclick="appendToDisplay('5')">5</button>
+        <button onclick="appendToDisplay('6')">6</button>
+        <button onclick="appendToDisplay('/')">/</button>
+        <button onclick="appendToDisplay('3')">3</button>
+        <button onclick="appendToDisplay('2')">2</button>
+        <button onclick="appendToDisplay('1')">1</button>
+        <button onclick="appendToDisplay('*')">*</button>
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="appendToDisplay('0')">0</button>
+        </div>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
